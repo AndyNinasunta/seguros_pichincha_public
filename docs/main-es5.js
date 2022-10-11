@@ -7878,6 +7878,10 @@
 
 
       var route = [{
+        path: '',
+        pathMatch: 'full',
+        redirectTo: '/login'
+      }, {
         path: "",
         component: _Layout_pages_layout_pages_layout_component__WEBPACK_IMPORTED_MODULE_1__.PagesLayoutComponent,
         children: [// User Pages
